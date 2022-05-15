@@ -49,3 +49,5 @@ class Graph:
                 if visited[i] != 1:
                     stack.append(i)
                     visited[i] = 1
+
+                    
