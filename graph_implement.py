@@ -8,7 +8,7 @@ while True:
     u, v = int(k.split("->")[0]), int(k.split("->")[1])
     graph.add_edge(u, v)
 
-print("\nThe vertices in Graph are:")
+print("\nThe vertices in Graph:")
 for i in graph.v:
     print(i, end=" ")
 print(f"\nThe graph has {graph.number_edges} edges")
