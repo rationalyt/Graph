@@ -3,11 +3,11 @@ from collections import defaultdict
 
 class Graph:
 
-    def __init__(self):
+    """def __init__(self):
         self.g = defaultdict(list)
         self.number_edges = 0
         self.v = set()
-        self.s = 0
+        self.s = 0"""
 
     def add_edge(self, u, v):
         self.g[u].append(v)
