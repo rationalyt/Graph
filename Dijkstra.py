@@ -1,4 +1,3 @@
-#DO NOT CHANGE ANY EXISTING CODE IN THIS FILE
 import sys
 class Dijkstra:
 
@@ -32,7 +31,7 @@ class Dijkstra:
                         adj.append((i[1], i[2]))
                    elif i[1] == v:
                         adj.append((i[0], i[2]))
-              for i in ad:
+              for i in adj:
                    if i[0] not in visited_set:
                         if d[v] + i[1] < d[i[0]]:
                              d[i[0]] = d[v] + i[1]
