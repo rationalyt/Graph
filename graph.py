@@ -8,7 +8,6 @@ class Graph:
         self.number_edges = 0
         self.v = set()
         self.s = 0
-        self.b = 0
 
     def add_edge(self, u, v):
         self.g[u].append(v)
