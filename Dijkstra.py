@@ -32,7 +32,7 @@ class Dijkstra:
                         adj.append((i[1], i[2]))
                    elif i[1] == v:
                         adj.append((i[0], i[2]))
-              for i in adj:
+              for i in ad:
                    if i[0] not in visited_set:
                         if d[v] + i[1] < d[i[0]]:
                              d[i[0]] = d[v] + i[1]
