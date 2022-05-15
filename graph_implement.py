@@ -20,4 +20,5 @@ print("\n\nSelect the source vertex for Depth First Search Traversal:")
 k = int(input())
 print("\nThe DFS traversal is:")
 graph.dfs(k)
+print("Testing merge")
 
